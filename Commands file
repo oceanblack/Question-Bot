@@ -1,0 +1,49 @@
+/*The Commands
+-------------------
+Hi! -> Hello!
+Hello! -> Hi!
+Good Morning! -> Good Morning!
+Good Afternoon! -> Good Afternoon!
+Good Night! -> Good Night!
+How are you? -> I'm fine.
+Who are you? -> I am MyBot!
+What is your name? -> My name is MyBot!
+How are you created? -> I was created by my creator,Dboayy.
+Thank you! -> You are Welcome!
+What is you gender? -> I am a bot.I don't have a gender.
+You are very helpful! / You are helpful! -> Thank you!
+What is your favorite color? -> My favorite color is red!
+I do not know what you are talking about. / I do not know what you're talking about. / I don't know what you are talking about. / I don't know what you're talking about           -> I'm just a bot.
+Wow! -> Cool huh?
+Cool! -> Very cool!
+What! -> Shocking!
+You are not helpful! / You are unhelpful!-> Sorry if I am.
+? -> !
+! -> ?
+I'm good / I am good -> I'm good too!
+----Special commands----
+What season is it? -> The season today is (Season name)
+What is the date? -> The date is (day of month)th of (month) (year).
+(number)_(number) -> Random-generated number between (min range) and (max range):(Random-generated number)
+I'm bored / I am bored -> Go make a code.Think of something interesting,something cool,something you dreamed about.Still bored? Here's a link.(Link to "Bored Button")
+(Numbers or with arithmetic operators) -> (Answer to input)                                                              
+--------------------
+NOTE:All commands first letter and last punctuation can be changed.
+*/
+
+
+//My copy stuffs for the code.
+/*
+else if(i.value == ''){}
+
+else if(typeof Number(i.value) === 'number')
+                try{
+                    var j = eval(i.value)
+                    alert(j)
+                }
+                catch(err){
+                    alert('Not a command.                                Please try another one.')
+                }
+
+*/
+alert('Thank you for coming and enjoying Rob thanks you for coming')
