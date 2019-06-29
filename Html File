@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Robs Bot! Your trusted little talking bot.</title>
+    </head>
+    <body>
+        <input placeholder='Type something...' id='i'>
+        <div id='b' onclick = 'fun()'><b>Ask</b></div>
+        <h1 id='p'>My Bot!</h1>
+        <p id='p2'><b>Dont ask me Because I have no clue.<b></p>
+        <script>
+        //Creating the variables for the input and button. 
+            var i = document.getElementById('i')
+            var b = document.getElementById('b')
+            //Creating the talking function from inputs.
+            function fun(){
+            //empty
+                if(i.value == ''){
+                    alert('Please input something.')
+            //Hi command
+                }else if(i.value === 'Hi!'||i.value ==="Hi?"||i.value ==="Hi."||i.value ==="Hi"||i.value ==="hi!"||i.value ==="hi?"||i.value ==="hi."||i.value ==="hi"){
+                    alert('Hello!')
+            //Hello command
+                }else if(i.value === 'Hello!'||i.value ==="Hello?"||i.value ==="Hello."||i.value ==="Hello"||i.value ==="hello!"||i.value ==="hello?"||i.value ==="hello."||i.value ==="hello"){
+                    alert('Hi!')
+            //Good morning command        
+                }else if(i.value === 'Good morning!' ||i.value ==='Good morning?' ||i.value ==='Good morning.'||i.value ==='Good morning'||i.value ==='Good Morning!'||i.value ==='Good Morning?'||i.value ==='Good Morning.'||i.value ==='Good Morning'||i.value ==='good morning!'||i.value ==='good morning?'||i.value ==='good morning.'||i.value ==='good morning'){
+                    alert('Good Morning!')
+            //Good afternoon command
+                }else if(i.value === 'Good afternoon!'||i.value ==='Good afternoon?' ||i.value ==='Good afternoon.'||i.value ==='Good afternoon'||i.value ==='Good Afternoon!'||i.value ==='Good Afternoon?'||i.value ==='Good Afternoon.'||i.value ==='Good Afternoon'||i.value ==='good afternoon!'|| i.value ==='good afternoon?'||i.value ==='good afternoon.'||i.value ==='good afternoon'){
+                    alert('Good Afternoon!')
+            //Good night command
+                }else if(i.value === 'Good night!' ||i.value ==='Good night?' ||i.value ==='Good night.'||i.value ==='Good night'||i.value ==='Good Night!'||i.value ==='Good Night?'||i.value ==='Good Night.'||i.value ==='Good Night'||i.value ==='good night!'||i.value ==='good night?'||i.value ==='good night.'||i.value ==='good night'){
+                    alert('Good Night!')
+            //How are you command
+                }else if(i.value === 'How are you?'||i.value ==="How are you."||i.value ==="How are you"||i.value ==="how are you?"||i.value ==="how are you."||i.value ==="how are you"){
+                    alert("I'm fine.")
+            //Who are you command
+                }else if(i.value ==="Who are you?"||i.value ==="Who are you."||i.value ==="Who are you"||i.value ==="who are you?"||i.value ==="who are you."||i.value ==="who are you"){
+                    alert('I am My Bot!')
+            //Thank you command
+                }else if(i.value === 'Thank you!'||i.value === 'Thank you?'||i.value === 'Thank you.'||i.value === 'Thank you'||i.value === 'thank you!'||i.value === 'thank you?'||i.value === 'thank you.'||i.value === 'thank you'){
+                    alert('You are welcome!')
+            //How are you created command
+                }else if(i.value === 'How are you created?'||i.value === 'How are you created.'||i.value === 'How are you created'||i.value === 'how are your created?'||i.value === 'how are you created.'||i.value === 'how are you created'){
+                alert('I was created by my creator,Dboayy.')
+            //What is your name command
+                }else if(i.value === 'What is your name?'||i.value === 'What is your name.'||i.value === 'What is your name'||i.value === 'what is your name?'||i.value === 'what is your name.'||i.value === 'what is your name'){
+                    alert('My name is My Bot!')   
+           //Date command 
+                }else if(i.value === 'What is the date?'||i.value === 'What is the date.'||i.value === 'What is the date'||i.value === 'what is the date?'||i.value === 'what is the date.'||i.value === 'what is the date'){
+                    var t = new Date()
+                    if(t.getMonth() == 0){
+                       var m = 'January'
+                    }else if(t.getMonth() == 1){
+                        var m = 'February'
+                    }else if(t.getMonth() == 2){
+                        var m = 'March'
+                    }else if(t.getMonth() == 3){
+                        var m = 'April'
+                    }else if(t.getMonth() == 4){
+                        var m = 'May'
+                    }else if(t.getMonth() == 5){
+                        var m = 'June'
+                    }else if(t.getMonth() == 6){
+                        var m = 'July'
+                    }else if(t.getMonth() == 7){
+                        var m = 'August'
+                    }else if(t.getMonth() == 8){
+                        var m = 'September'
+                    }else if(t.getMonth() == 9){
+                        var m = 'October'
+                    }else if(t.getMonth() == 10){
+                        var m = 'November'
+                    }else if(t.getMonth() == 11){
+                        var m = 'December'
+                    }
+                    alert('The date is ' + t.getDate() + 'th ' + m + ' ' + t.getFullYear())
+            //What is your gender command
+                }else if(i.value === 'What is your gender?'||i.value === 'What is your gender.'||i.value === 'What is your gender'||i.value === 'what is your gender?'||i.value === 'what is your gender.'||i.value === 'what is your gender'){
+                    alert("I am a bot.I don't have a gender.")
+            //You are very helpful command
+                }else if(i.value === 'You are very helpful!'||i.value === 'You are very helpful?'||i.value === 'You are very helpful.'||i.value === 'You are very helpful'||i.value === 'you are very helpful!'||i.value === 'you are very helpful!'||i.value === 'you are very helpful!'||i.value === 'you are very helpful!'||i.value === 'You are helpful!'||i.value === 'You are helpful?'||i.value === 'You are helpful.'||i.value === 'You are helpful'||i.value === 'you are helpful!'||i.value === 'you are helpful?'||i.value === 'you are helpful.'||i.value === 'you are helpful'){
+                    alert('Thank you!')
+            //What is your favorite color command
+                }else if(i.value === 'What is your favorite color?'||i.value === 'What is your favorite color.'||i.value === 'What is your favorite color'||i.value === 'what is your favorite color?'||i.value === 'what is your favorite color.'||i.value === 'what is your favorite color'){
+                    alert('My favorite color is red!')
+            //I do not know what you are talking about command
+                }else if(i.value === 'I do not know what you are talking about.'||i.value === 'I do not know what you are talking about!'||i.value === 'I do not know what you are talking about?'||i.value === 'I do not know what you are talking about'||i.value === 'i do not know what you are talking about.'||i.value === 'i do not know what you are talking about!'||i.value === 'i do not know what you are talking about?'||i.value === 'i do not know what you are talking about'||i.value === "I don't know what you are talking about."||i.value === "I don't know what you are talking about!"||i.value === "I don't know what you are talking about?"||i.value === "I don't know what you are talking about"||i.value === "i don't know what you are talking about."||i.value === "i don't know what you are talking about!"||i.value === "i don't know what you are talking about?"||i.value === "i don't know what you are talking about"||i.value === "I do not know what you're talking about."||i.value === "I do not know what you're talking about!"||i.value === "I do not know what you're talking about?"||i.value === "I do not know what you're talking about"||i.value === "i do not know what you're talking about."||i.value === "i do not know what you're talking about!"||i.value === "i do not know what you're talking about?"||i.value === "i do not know what you're talking about"||i.value === "I don't know what you're talking about."||i.value === "I don't know what you're talking about!"||i.value === "I don't know what you're talking about?"||i.value === "I don't know what you're talking about"||i.value === "i don't know what you're talking about."||i.value === "i don't know what you're talking about!"||i.value === "i don't know what you're talking about?"||i.value === "i don't know what you're talking about"){
+                    alert("I'm just a bot.")
+            //Wow command
+                }else if(i.value === "Wow!"||i.value === "Wow?"||i.value === "Wow."||i.value === "Wow"||i.value === "wow!"||i.value === "wow?"||i.value === "wow."||i.value === "wow"){
+                    alert("Cool huh?")
+            //What command
+                }else if(i.value === "What!"||i.value === "What?"||i.value === "What."||i.value === "What"||i.value === "what!"||i.value === "what?"||i.value === "what."||i.value === "what"){
+                    alert("Shocking!")
+            //You are not helpful command
+                }else if(i.value === "You are not helpful!"||i.value === "You are not helpful?"||i.value === "You are not helpful."||i.value === "You are not helpful"||i.value === "you are not helpful!"||i.value === "you are not helpful?"||i.value === "you are not helpful."||i.value === "you are not helpful"||i.value === "You are unhelpful!"||i.value === "You are unhelpful?"||i.value === "You are unhelpful."||i.value === "You are unhelpful"||i.value === "you are unhelpful!"||i.value === "you are unhelpful?"||i.value === "you are unhelpful."||i.value === "you are unhelpful"){
+                    alert("Sorry if I am.")
+            //Cool command
+                }else if(i.value === 'Cool!'||i.value === 'Cool?'||i.value === 'Cool.'||i.value === 'Cool'||i.value === 'cool!'||i.value === 'cool?'||i.value === 'cool.'||i.value === 'cool'){
+                    alert('Very Cool!')
+            //? command
+                }else if(i.value === "?"){
+                    alert("!")
+            //! command
+                }else if(i.value === "!"){
+                    alert("?")
+            //Season command
+                }else if(i.value === 'What season is it?'||i.value === 'What season is it.'||i.value === 'What season is it'||i.value === 'what season is it?'||i.value === 'what season is it.'||i.value === 'what season is it'){
+                   var t = new Date()
+                   switch(t.getMonth()){
+                       case 11||0||1:
+                       alert('The season today is Winter.')
+                       break;
+                       case 2||3||4:
+                       alert('The season today is Spring.')
+                       break;
+                       case 5||6||7:
+                       alert('The season today is Summer.')
+                       break;
+                       case 8||9||10:
+                       alert('The season today is Autumn.')
+                       break;
+                   }
+            //Random-generated number command
+                   }else if(typeof Number(i.value) === 'number' && i.value.search('_') != -1){
+                        try{
+                           var a = i.value
+                           var n2 = a.search('_')
+                           var n1 = a.slice(0,n2)
+                           var n = Number(n1)
+                           var e3 = a.length
+                           var e2 = a.search('_')+1
+                           var e1 = a.slice(e2,e3)
+                           var e = Number(e1)
+                           var mh = Math.floor(Math.random()*(e-n))+n
+                           alert('Random-generated number between ' + n + ' and ' + e + ':                                                           ' + mh)
+                        }catch(err){
+                            alert('Not a command.                                Please try another one.')
+                        }
+                //Bored command
+                   }else if(i.value === 'I\'m bored.'||i.value === 'I\'m bored.'||i.value === 'I\'m bored!'||i.value === 'I\'m bored?'||i.value === 'I\'m bored'||i.value === 'i\'m bored!'||i.value === 'i\'m bored?'||i.value === 'i\'m bored'||i.value === 'I am bored.'||i.value === 'I am bored!'||i.value === 'I am bored?'||i.value === 'I am bored'||i.value === 'i am bored.'||i.value === 'i am bored!'||i.value === 'i am bored?'||i.value === 'i am bored'){
+                       var h = '';
+                       alert('Go make a code.Think of something interesting,something cool,something you dreamed about.Still bored? Here\'s a link.                                                                '+h.link("https://squareup.com/store/1page-resumes"))
+                //I am good command
+                   }else if(i.value === "I am good."||i.value === "I am good!"||i.value === "I am good?"||i.value === "I am good"||i.value === "i am good."||i.value === "i am good!"||i.value === "i am good?"||i.value === "i am good"||i.value === "I'm good."||i.value === "I'm good!"||i.value === "I'm good?"||i.value === "I'm good"||i.value === "i'm good."||i.value === "i'm good!"||i.value === "i'm good?"||i.value === "i'm good"){
+                       alert("I'm good too!")
+                //Calculator command
+                   }else if(typeof Number(i.value) === 'number')
+                   try{
+                       var j = eval(i.value)
+                       alert(j)
+                   }
+                   catch(err){
+                       alert('Not a command.                                Please try another one.')
+                   }
+             };
+        </script>
+    </body>
+</html>
