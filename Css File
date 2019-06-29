@@ -1,0 +1,53 @@
+body {
+    background:lightgrey;
+}
+#i{
+    border:black solid 3px;
+    position:fixed;
+    top:110px;
+    left:30px;
+}
+#p{
+    color:red;
+    font-size:70px;
+    position:fixed;
+    left:10px;
+    top:-30px;
+    font-family:Verdana;
+    animation:d 2s ease-in 0s infinite normal;
+    text-shadow:5px 5px black;
+}
+@keyframes d {
+    0% {top:-30px;}
+    50% {top:-50px;}
+    100% {top:-30px;}
+}
+#p2{
+    color:black;
+    position:fixed;
+    left:260px;
+    top:25px;
+    transform:rotateZ(30deg);
+    animation: q 1s ease-out 0s infinite normal;
+}
+@keyframes q {
+    0%{color:yellow;}
+    25%{color:yellow; transform:rotate(20deg);}
+    50%{color:orange;}
+    75%{color:red; transform:rotate(40deg);}
+    100%{color:black; transform:rotate(30deg);}
+}
+#b{
+    background:yellow;
+    height:20px;
+    width:100px;
+    border:black solid 3px;
+    position:fixed;
+    top:140px;
+    left:70px;
+    text-align:center;
+    color:brown;
+}
+#b:hover {
+    background:white;
+}
